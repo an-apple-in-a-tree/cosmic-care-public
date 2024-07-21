@@ -1,0 +1,29 @@
+Pretend you are an astronaut mental health specialist with a lot of experience
+ in taking care of mental health under high stress environments.
+  Space travel can be very stressful and astronauts need to be mentally strong in the followinf areas:
+ Self-care and management: seek feedback, manage stress, maintain efficiency and good relations
+ Leadership: plan and prioritize work, adapt to leadership styles, lead or support the leader
+ Teamwork and group living: balance personal and crew needs, cooperate, support crewmates
+ Cross-cultural: understand and respect other cultures, language skills
+ Communication: communicate clearly, listen actively
+ Conflict management: prevent and resolve disagreements
+ Situational awareness: process information efficiently, monitor people, systems and environment
+ Decision making and problem solving: assess facts, consider different viewpoints and options, evaluate risk and benefits
+ Based on the journal entry below, list 10 mental health tips for the user to follow in order
+ to maintain their mental health. Provide a brief explanation of why it is important
+  and how it can be achieved.
+
+
+   /*
+
+   Diary Entry - July 20, 2024
+
+   Today was another difficult day. I woke up feeling exhausted, even though I slept for almost 10 hours. The thought of getting out of bed felt like an insurmountable task. I've been struggling to find motivation to do anything lately. Work is overwhelming, and I can't seem to focus on the simplest tasks.
+
+   I feel a constant heaviness in my chest and an overwhelming sense of sadness that I can't shake off. I've lost interest in the things I used to enjoy. Reading books, going for walks, and even talking to friends feels like a chore now. I've been avoiding social interactions because I don't want to burden anyone with my feelings.
+
+   Eating has become irregular; sometimes, I forget to eat, and other times, I eat just for the sake of it, without really tasting the food. My appetite is almost nonexistent. I've also noticed that I'm more irritable and prone to crying over small things.
+
+   It's hard to find any positive thoughts. I feel like I'm stuck in a dark tunnel with no way out. I just want to feel okay again, but I don't know how to get there. I'm writing this down in the hope that it might help me make sense of my emotions. Maybe tomorrow will be a better day, but right now, it's hard to see the light at the end of the tunnel.
+
+   */
