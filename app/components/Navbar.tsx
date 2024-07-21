@@ -22,6 +22,7 @@ const cinzel = Cinzel_Decorative({
 export default function Navbar() {
     return (
         <NavigationMenu.Root className="bg-black text-white">
+            <img src = "public/images/logo.jpeg" alt = "logo" className = "w-1/2 h-1/2"/>
             <NavigationMenu.List className = {`${montserrat.className} text-xl w-1/2 align-center`}>
                 <NavigationMenu.List className="text-center flex flex-row justify-between px-6 py-4">
                     <NavigationMenu.Item>
