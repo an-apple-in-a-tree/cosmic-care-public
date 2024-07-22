@@ -11,7 +11,8 @@ if (!apiKey) {
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export const fetchTips = async (journalEntry: string) => {
-    const promptPath = path.join(process.cwd(), 'app/pages/mindfullness-zone/geminiPrompt.txt');
+    console.log("fetching it...")
+    const promptPath = path.join(process.cwd(), '/app/geminiPrompt.txt');
     let promptTemplate = await fs.readFile(promptPath, 'utf8');
 
     let model = genAI.getGenerativeModel({

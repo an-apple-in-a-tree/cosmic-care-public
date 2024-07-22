@@ -1,30 +1,21 @@
 "use client";
-import { Lato, Montserrat, Cinzel_Decorative } from "next/font/google";
-const lato = Lato({
-    weight: ["400", "700"],
-    subsets: ["latin"],
-    variable: "--font-lato",
-});
+import '@radix-ui/themes/styles.css';
 
-const montserrat = Montserrat({
-    weight: ["400", "700"],
-    subsets: ["latin"],
-    variable: "--font-montserrat",
-});
 
-const cinzel = Cinzel_Decorative({
-    weight: ["400", "700"],
-    subsets: ["latin"],
-    variable: "--font-cinzel",
-});
+interface SuggestionProps {
+    name: string;
+    description: string;
+}
 
-export default function Suggestion( name: string, description: string) {
+const Suggestion: React.FC<SuggestionProps> = ({ name, description }) => {
     return (
-        <div className="w-full h-1/4 rounded-lg">
-            <div className="bg-black text-white">
-                <h1 className = {`${montserrat.className} text-xl w-1/2 align-center`}>{name}</h1>
-                <p className = {`${lato.className} text-lg w-1/2 align-center`}>{description}</p>
+        <div className="card bg-vibrantPink my-4">
+            <div className="card-body text-white">
+                <h2 className="card-title text-sunnyYellow">{name}</h2>
+                <p>{description}</p>
             </div>
         </div>
     );
-}
+};
+
+export default Suggestion;
